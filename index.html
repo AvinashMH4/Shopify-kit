@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Step 1: CTA Button -->
+    <button id="writeReviewBtn">Write Review</button>
+
+    <!-- Step 2: Review Form (Initially Hidden) -->
+    <div id="reviewForm" class="hidden">
+        <input type="text" id="username" placeholder="Enter your username">
+        <textarea id="reviewText" placeholder="Write your review"></textarea>
+        
+        <!-- Star Rating Section -->
+         
+        <h2>Ratings</h2>
+        <div class="star-rating">
+            <span class="star" data-value="1">★</span>
+            <span class="star" data-value="2">★</span>
+            <span class="star" data-value="3">★</span>
+            <span class="star" data-value="4">★</span>
+            <span class="star" data-value="5">★</span>
+        
+    </div>
+        <input type="hidden" id="selectedRating" value="0"> <!-- Store rating value -->
+
+        <input type="file" id="reviewImage" accept="image/*">
+        <button id="submitReview">Submit</button>
+    </div>
+
+    <!-- Step 1: Review Section 
+    <div id="reviewsContainer">
+        <h2>Reviews</h2>
+        <div id="reviews"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>-->
+
+<!-- Step 1: Review Section --> 
+<div id="reviewsContainer">
+    <h2>Reviews</h2>
+    <div id="reviews">
+     
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
